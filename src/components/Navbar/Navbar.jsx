@@ -30,7 +30,7 @@ export default function Simple() {
   // }
   const buttonClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1pU4PGK5MfQx8_c3BKnxCSqetP_rgeQF6/view?usp=sharing"
+      "https://drive.google.com/file/d/1LS2ZIX7QSVCWU4PxwxPp9rdrGJyOE1CF/view?usp=drive_link"
     );
   };
 
@@ -137,7 +137,7 @@ export default function Simple() {
               >
                 <div className={styles.nav}>Contact</div>
               </Link>
-              <a download href="MaheshGaneshTidgam-FullStackWebDeveloper-Up03.pdf" onClick={buttonClick}>
+              <a download href="MaheshGaneshTidgam-FullStackWebDeveloper-4k0L.pdf" onClick={buttonClick}>
                 <div className={styles.nav}>Resume</div>
               </a>
             </HStack>
