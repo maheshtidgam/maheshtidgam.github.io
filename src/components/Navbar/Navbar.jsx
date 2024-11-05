@@ -137,7 +137,7 @@ export default function Simple() {
               >
                 <div className={styles.nav}>Contact</div>
               </Link>
-              <a download href="MaheshGaneshTidgam-FullStackWebDeveloper-Up03.pdf" onClick={buttonClick}>
+              <a download href="MaheshGaneshTidgam-FullStackWebDeveloper-4k0L (2).pdf" onClick={buttonClick}>
                 <div className={styles.nav}>Resume</div>
               </a>
             </HStack>
