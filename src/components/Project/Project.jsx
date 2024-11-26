@@ -56,6 +56,23 @@ const projects = [
       <p className={styles.stackIcon}><SiJavascript/>JAVASCRIPT</p>,
     ],
   },
+
+  {
+    name: "Weekend-Planner.com",
+    img: "Weekend_planner.png",
+    link: "https://weekend-trip-anho.vercel.app/",
+    git: "https://github.com/manoharv2512/Code_Compass_019",
+    about:
+    "This is Weekend Planning website.This was a team project where I with my teammates had created.My task was to do add landing page and date picker page creation and help in the css part. ",
+    stacks: [
+      //  <SiReact className={styles.stackIcon} />,
+      // <SiChakraui className={styles.stackIcon} />,
+      <p className={styles.stackIcon}><SiHtml5/>HTML</p>,
+      <p className={styles.stackIcon}><SiCss3/>CSS</p>,
+      <p className={styles.stackIcon}><SiJavascript/>JAVASCRIPT</p>,
+      <p className={styles.stackIcon}><SiReact/>REACT</p>,
+    ],
+  },
  
 ];
 export function ProjectsSection() {
