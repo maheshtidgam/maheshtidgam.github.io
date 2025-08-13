@@ -2,7 +2,7 @@
 import './App.css';
 import { AboutSection } from './components/About/About';
 import ContactForm from './components/Contact/Contact';
-import { ExperianceSection } from './components/Experiance/Experiance';
+import ExperianceSection from './components/Experiance/Experiance';
 // import ContactFormWithSocialButtons from './components/Contact/Contact';
 import GithubStat from './components/Github/GithubStat';
 // import Graph from './components/Github/Github';
@@ -14,22 +14,22 @@ import { SkillsSection } from './components/Skill/SkillsSection';
 function App() {
   return (
     <div className="App">
-      
-      <Simple/>
-  
-      <SplitScreen/>
 
-      <AboutSection/>
-      
-      <SkillsSection/>
+      <Simple />
 
-      {/* <ExperianceSection/> */}
+      <SplitScreen />
 
-      <ProjectsSection/>
+      <AboutSection />
 
-      <GithubStat/>
+      <SkillsSection />
 
-      <ContactForm/>
+      <ExperianceSection />
+
+      <ProjectsSection />
+
+      <GithubStat />
+
+      <ContactForm />
     </div>
   );
 }

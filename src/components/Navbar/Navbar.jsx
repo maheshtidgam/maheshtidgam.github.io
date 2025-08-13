@@ -30,7 +30,7 @@ export default function Simple() {
   // }
   const buttonClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1Nmr-CMInUDDmbbN73KTarTM06g-g7Nq-/view?usp=drive_link"
+      "https://drive.google.com/file/d/1J50kAqACcH8YDVbpG8V1fFH5DXq310sI/view?usp=sharing"
     );
   };
 
@@ -107,7 +107,7 @@ export default function Simple() {
               >
                 <div className={styles.nav}>Skills</div>
               </Link>
-              {/* <Link
+              <Link
                 to="experiance"
                 smooth={true}
                 duration={1000}
@@ -115,8 +115,8 @@ export default function Simple() {
                 spy={true}
                 hashSpy={true}
               >
-                <div className={styles.nav}>Live Projects</div>
-              </Link> */}
+                <div className={styles.nav}>Experiance</div>
+              </Link>
               <Link
                 to="projects"
                 smooth={true}
