@@ -30,7 +30,7 @@ export default function Simple() {
   // }
   const buttonClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1J50kAqACcH8YDVbpG8V1fFH5DXq310sI/view?usp=sharing"
+      "https://drive.google.com/file/d/1Q27Gdb0MoPIGFbOnZPbm8roRb6UUTnjq/view?usp=drive_link"
     );
   };
 
@@ -137,7 +137,7 @@ export default function Simple() {
               >
                 <div className={styles.nav}>Contact</div>
               </Link>
-              <a download href="MaheshGaneshTidgam.pdf" onClick={buttonClick}>
+              <a download href="MaheshTidgamResume.pdf" onClick={buttonClick}>
                 <div className={styles.nav}>Resume</div>
               </a>
             </HStack>
@@ -207,7 +207,7 @@ export default function Simple() {
               >
                 <div className={styles.nav}>Contact</div>
               </Link>
-              <a download href="MaheshGaneshTidgam.pdf" onClick={buttonClick}>
+              <a download href="MaheshTidgamResume.pdf" onClick={buttonClick}>
                 <div className={styles.nav}>Resume</div>
               </a>
             </Stack>
